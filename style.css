@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: rgb(219, 227, 235);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h1{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    height: 50px;
+    font-size: 1.2em;
+    font-weight: 700;
+    width: 300px;
+    color: rgb(3, 3, 19);
+    text-transform: uppercase;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+.container2{
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    max-width: 800px;
+    min-height: 500px;
+    background: rgb(160, 190, 196);
+    margin: 50px;
+    display: block;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container2 h2{
+    background:rgb(3, 3, 19) ; 
+    font-size: 1em;
+    width: 250px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.container2 button{
+    height: 40px;
+    width: 150px;
+    color: grey;
+}
+.summary{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.summary .img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.summary .img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.summary h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.summary h2 span{
+    font-size: 0.6em;
+    font-weight: 400;
+}
+
+.container .left-side{
+    position: relative;
+    background: rgb(3, 3, 19);
+    padding: 40px;
+}
+.container .right-side{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+.contact{
+    padding-top: 40px;
+}
+.contact.education{
+    color: white;
+    font-weight: 300;
+}
+.contact.education li{
+    margin-bottom: 15px;
+}
+.contact.education h5{
+    color: aqua;
+    font-weight: 500;
+}
+.contact.education h4{
+    color: white;
+    font-weight: 500;
+}
+.contact.education h4:nth-child(){
+    color: white;
+    font-weight: 300;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    position: relative;
+}
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aqua;
+}
+.contact ul li span{
+    color: white;
+    font-weight: 300;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+.profile .textfield input{
+    width: 700px;
+    height: 40px;
+    font-size: 16px;
+    color:  black;
+    background: white;
+    text-align: left;
+    border: 0.5px solid silver;
+
+}
+.profile .textfield ::placeholder{
+    position: absolute;
+    top: 50%; 
+    left: 5%;
+    color: grey;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;   
+    font-weight: lighter;
+
+}
+.profile textarea{
+    height: 100px;
+    width: 700px;
+    border: 0.5px solid silver;
+}
+.profile .textfield select{
+    width: 700px;
+    height: 40px;
+    font-size: 16px;
+    color:  black;
+    background: white;
+    text-align: left;
+    border: 0.5px solid silver;
+
+}
+.container  .right-side{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: rgb(3, 3, 19);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: rgb(3, 3, 19);
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .company{
+    min-width: 150px;
+}
+.about .box .company h5{
+    text-transform: uppercase;
+    color: rgb(3,3, 19);
+    font-weight: 600;
+}
+.about .box .text h4{
+    text-transform: uppercase;
+    color: rgb(11, 101, 117);
+    
+}
+.aboutskills .box{
+    margin: 20px 0;
+}
+.aboutskills .box ul{
+ margin-left: 3px;
+ list-style-type: none;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center;
+    align-items: center;
+}
+.aboutskills .box ul li{
+    text-transform: uppercase;
+    color: rgb(3, 3, 19);
+    font-weight: 500;
+    margin: 10px 0;
+}
+.aboutcerts .box{
+    margin: 20px 0;
+}
+.aboutcerts .box ul{
+    list-style-type: none;
+    position: relative;
+    color: rgb(3, 3, 19) ;
+    
+}
+.aboutcerts .box ul li{
+    margin: 10px 0;
+    font-weight: 400; 
+}
+ .bgbtn{
+    margin-top: 50px;
+    background:rgb(3, 3, 19) ; 
+    font-size: 1em;
+    width: 100px;
+    height: 300px;
+    color: white;
+   
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10px;
+    justify-self: center;
+    
+}
